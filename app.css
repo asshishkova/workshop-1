@@ -7,7 +7,6 @@
 
 .content {
   width: 50%;
-  align-items: center;
   padding: 50px;
   position: fixed; top: 50%; left: 50%;
   transform: translate(-50%, -50%);
@@ -17,7 +16,7 @@
 fieldset input, select{
   display: block;
   margin: 12px;
-  width: 300px;
+  width: 50%;
   border-radius: 12px;
 }
 
@@ -48,4 +47,6 @@ h1 {
 
 #submit:hover {
   background: aliceblue;
+  box-shadow: 1px 1px 10px black;
+  transition: all 0.3s ease-in-out 0.3s;
 }
