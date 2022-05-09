@@ -1,1 +1,51 @@
 
+*, button, form {
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 24px;
+  background-color: rgba(181, 181, 253, 0.5);
+}
+
+.content {
+  width: 50%;
+  align-items: center;
+  padding: 50px;
+  position: fixed; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+}
+
+fieldset input, select{
+  display: block;
+  margin: 12px;
+  width: 300px;
+  border-radius: 12px;
+}
+
+fieldset {
+  border-radius: 12px;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  background: none;
+}
+
+.submit-bottom {
+  display: flex;
+  justify-content: space-between;
+  background: none;
+  margin: 0px 30px;
+}
+
+.submit-bottom input:hover, .submit-bottom label:hover {
+  cursor: pointer;
+}
+
+#submit{
+  border-radius: 12px;
+}
+
+#submit:hover {
+  background: aliceblue;
+}
