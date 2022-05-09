@@ -1,6 +1,6 @@
 # Workshop 1 - Registration form
 ## Result
-<img src="./assets/Screen Shot 2022-05-09 at 22.56.21.png" alt="Screen Shot 2022-05-09 at 22.56.21.png">
+<img src="./assets/Screen Shot 2022-05-09 at 23.44.03.png" alt="Screen Shot">
 The form contains two blocks:
 
 - `Main` - required to fill in
@@ -8,10 +8,10 @@ The form contains two blocks:
 
 The fields are the following:
 - `Username` - free text field with minimum length of 6 characters, no spaces allowed
-- `Password` - input is hidden upon the typing. minimum length of 8 characters.
+- `Password` - input is hidden upon typing, minimum length of 8 characters.
 - `Full Name` - free text field
 - `Age` - valid number from 8 to 120
-- `Email` - only valid email is accepter
+- `Email` - only valid email is accepted
 - `Gender` - dropdown with single choice (refuse to state, male, female, other)
 
 Before submitting it is requred to accept the terms & conditions - checkbox.
